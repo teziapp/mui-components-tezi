@@ -1,0 +1,52 @@
+{
+  "name": "mui-components-tezi",
+  "private": false,
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup ./index.ts",
+    "dev": "tsup ./index.ts --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mui",
+    "Material UI",
+    "React",
+    "Components",
+    "UI",
+    "Library",
+    "React Hook Form",
+    "Material React Table",
+    "Tanstack Table"
+  ],
+  "author": "Balkrishna Agarwal",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "@types/react-lazy-load-image-component": "^1.6.3",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@mui/lab": "5.0.0-alpha.155",
+    "@mui/material": "^5.14.20",
+    "@mui/styled-engine": "^5.15.2",
+    "@mui/x-date-pickers": "^6.18.3",
+    "@tanstack/react-query": "^4.35.3",
+    "date-fns": "^3.0.6",
+    "framer-motion": "^10.16.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.11",
+    "react-hook-form": "^7.48.2",
+    "react-lazy-load-image-component": "^1.6.0",
+    "react-router-dom": "^6.20.1",
+    "simplebar-react": "^3.2.4"
+  }
+}
